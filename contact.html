@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery - Contact</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <!-- navbar-expand-lg: Responsive breakpoint for larger screens -->
+    <!-- navbar-light: Light color scheme for the navbar -->
+    <!-- bg-light: Light background color -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- container: Responsive fixed-width container -->
+        <div class="container">
+            <!-- navbar-brand: Company, product, or project name -->
+            <a class="navbar-brand" href="index.html">H'S PHONECASE</a>
+            <!-- navbar-toggler: Hamburger menu for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse navbar-collapse: Grouping and hiding navbar contents by a parent breakpoint -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- navbar-nav: Full-height and lightweight navigation -->
+                <!-- ms-auto: Margin-left:auto to push the navbar items to the right -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <!-- active: Highlights the current page -->
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- my-5: Margin top and bottom -->
+    <main class="container my-5">
+        <!-- mb-4: Margin bottom -->
+        <h1 class="mb-4">Contact Us</h1>
+        <form>
+            <!-- mb-3: Margin bottom -->
+            <div class="mb-3">
+                <!-- form-label: Styles for form labels -->
+                <label for="name" class="form-label">Name</label>
+                <!-- form-control: Styles for form inputs -->
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <!-- btn btn-secondary: Styles for secondary button -->
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <!-- bg-light: Light background -->
+    <!-- text-center: Center-align text -->
+    <!-- text-lg-start: Left-align text on larger screens -->
+    <!-- mt-4: Margin top -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <!-- p-4: Padding -->
+        <div class="container p-4">
+            <div class="row">
+                <!-- col-lg-6 col-md-12: Column widths for different screen sizes -->
+                <!-- mb-4 mb-md-0: Margin bottom, 0 on medium screens and up -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <!-- text-uppercase: Uppercase text -->
+                    <h5 class="text-uppercase">Follow HERE</h5>
+                    <!-- list-inline: Horizontal list -->
+                    <ul class="list-inline">
+                        <!-- list-inline-item: Inline list items -->
+                        <li class="list-inline-item">
+                            <!-- text-dark: Dark text color -->
+                            <a href="#" class="text-dark">
+                                <!-- fa-2x: Font Awesome icon size -->
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-dark">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-dark">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- text-center: Center-align text -->
+        <!-- p-3: Padding -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 H'S PHONECASE. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

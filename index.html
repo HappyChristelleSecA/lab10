@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Case Gallery - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <!-- navbar-expand-lg: Expands navbar on large screens -->
+    <!-- navbar-light: Light color scheme for navbar -->
+    <!-- bg-light: Light background color -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- container: Responsive fixed-width container -->
+        <div class="container">
+            <!-- navbar-brand: Company, product, or project name -->
+            <a class="navbar-brand" href="#">H'S PHONECASE</a>
+            <!-- navbar-toggler: Hamburger menu for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse navbar-collapse: Grouping and hiding navbar contents -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- navbar-nav: Full-height and lightweight navigation -->
+                <!-- ms-auto: Margin-start auto (pushes nav items to the right) -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <!-- active: Indicates current page -->
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <!-- container: Responsive fixed-width container -->
+    <!-- my-5: Margin top and bottom 5 units -->
+    <main class="container my-5">
+        <!-- mb-4: Margin bottom 4 units -->
+        <h1 class="mb-4">Welcome to Our Phone Case Gallery</h1>
+        <!-- lead: Makes paragraph stand out -->
+        <p class="lead">Discover our unique collection of stylish and protective phone cases.</p>
+        <!-- row: Horizontal group of columns -->
+        <div class="row">
+            <!-- col-md-6: Column width 6 units on medium screens and up -->
+            <div class="col-md-6">
+                <!-- img-fluid: Responsive image -->
+                <!-- rounded: Adds rounded corners -->
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdWWWhopUFTfnei2jLTfnTxJb3sn3lZieLw&s" class="img-fluid rounded" alt="Featured Phone Case" height="100%" width="100%">
+            </div>
+            <div class="col-md-6">
+                <h2>Featured Collection</h2>
+                <p>Our latest collection combines durability with eye-catching designs. Protect your phone in style!</p>
+                <!-- btn btn-secondary: Secondary button style -->
+                <a href="gallery.html" class="btn btn-secondary">View Gallery</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <!-- bg-light: Light background -->
+    <!-- text-center: Center-align text -->
+    <!-- text-lg-start: Left-align text on large screens -->
+    <!-- mt-4: Margin top 4 units -->
+    <footer class="bg-light text-center text-lg-start mt-4">
+        <!-- p-4: Padding 4 units -->
+        <div class="container p-4">
+            <div class="row">
+                <!-- col-lg-6 col-md-12: 6 columns on large screens, 12 on medium -->
+                <!-- mb-4 mb-md-0: Margin bottom 4 units, 0 on medium screens and up -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <!-- text-uppercase: Transform text to uppercase -->
+                    <h5 class="text-uppercase">Follow HERE</h5>
+                    <!-- list-inline: Horizontal list -->
+                    <ul class="list-inline">
+                        <!-- list-inline-item: Inline list item -->
+                        <li class="list-inline-item">
+                            <!-- text-dark: Dark text color -->
+                            <a href="#" class="text-dark">
+                                <!-- fab fa-facebook fa-2x: Facebook icon, 2x size -->
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-dark">
+                                <!-- fab fa-instagram fa-2x: Instagram icon, 2x size -->
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-dark">
+                                <!-- fab fa-twitter fa-2x: Twitter icon, 2x size -->
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- text-center: Center-align text -->
+        <!-- p-3: Padding 3 units -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 H'S PHONECASE. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+:root {
+    --primary-color: #D4AF37;    /* Gold */
+    --secondary-color: #C5A028;  /* Darker Gold */
+    --accent-color: #FFD700;     /* Bright Gold */
+    --background-color: #F5F5F5; /* Off-White */
+    --text-color: #1A1A1A;       /* Almost Black */
+    --light-text-color: #4D4D4D; /* Dark Gray for footer text */
+    --white: #FFFFFF;
+    --card-hover: #E5E5E5;       /* Light Gray for card hover effect */
+    --dark-bg: #2C2C2C;          /* Dark Gray, almost black, for contrasting elements */
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Navigation Styles */
+.navbar {
+    background-color: var(--white);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: var(--primary-color) !important;
+}
+
+/* Main Content Styles */
+main {
+    min-height: 80vh;
+}
+
+h1, h2, h3 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+/* Gallery Styles */
+.gallery .card {
+    background-color: var(--white);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.gallery .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.gallery .card-img-top {
+    height: auto;
+    width: auto;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--white);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--secondary-color);
+    border-top: 1px solid var(--light-text-color);
+    color: var(--light-text-color);
+}
+
+footer .fab {
+    color: var(--light-text-color);
+    transition: color 0.3s ease;
+}
+
+footer .fab:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive Image Styles */
+.img-fluid {
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+}
+
+/* About Page Styles */
+.about-section {
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+/* Contact Form Styles */
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--light-text-color);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+/* Animation for page load */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    animation: fadeIn 1s ease-in;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .gallery .card-img-top {
+        height: auto;
+    }
+}
