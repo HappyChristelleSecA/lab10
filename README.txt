@@ -3,7 +3,7 @@
 
 H's Phone Case Gallery - Single Page Website
 
-## Project Overview
+Project Overview
 This project is a single-page website for H's Phone Case Gallery, showcasing a collection of stylish phone cases. Built with HTML5, CSS3, and Bootstrap 5, it demonstrates responsive web design principles and modern front-end practices.
 
 Features
